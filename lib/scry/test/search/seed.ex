@@ -1,8 +1,8 @@
 defmodule Scry.Test.Search.Seed do
   @moduledoc """
-  A small, realistic article set shaped after `lang_spec.md` §8.5's own
-  worked example domain (`articles`/`title`/`category`/`published_at`/
-  `content`) -- deliberately including rows that miss a `SEARCH`
+  A small, realistic article set shaped after the worked example domain
+  (`articles`/`title`/`category`/`published_at`/`content`) --
+  deliberately including rows that miss a `SEARCH`
   match, rows outside a plausible `WHERE published_at >= ...` cutoff,
   and rows in a different `category`, so a query combining `SEARCH`
   with ordinary filters has real negative cases to exclude, not just

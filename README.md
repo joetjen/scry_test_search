@@ -3,7 +3,7 @@
 Shared test fixtures for
 [`scry_search`](https://github.com/joetjen/scry_search): one seed
 dataset (`Scry.Test.Search.Seed`) — a small article set shaped after
-`lang_spec.md` §8.5's own worked example domain — servable through
+the worked example domain — servable through
 `Scry.Test.Search.Conn.articles/0`.
 
 **Only one constructor, not a family of interchangeable backends, and
@@ -22,9 +22,8 @@ an application's own integration tests, or this kind's own future real
 adapter's test suite, once one exists) plus `scry_core`'s own `mix
 scry.query`/`mix scry.iex`, configured here, for ad-hoc exploration.
 
-Source: <https://github.com/joetjen/scry_test_search>. Specs live in
-the separate [`scry`](https://github.com/joetjen/scry) repository; the
-kind this exercises lives in
+Source: <https://github.com/joetjen/scry_test_search>. The kind this
+exercises lives in
 [`scry_search`](https://github.com/joetjen/scry_search).
 
 ## Usage

@@ -30,7 +30,7 @@ defmodule Scry.Test.Search.ConnTest do
            ]
   end
 
-  test "the lang_spec.md §8.5 worked example runs correctly against this fixture" do
+  test "the worked example runs correctly against this fixture" do
     rows =
       run!("""
       SELECT articles
